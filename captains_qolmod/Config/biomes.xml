@@ -1,0 +1,8 @@
+<configs>
+
+    <!-- REMOVE -->
+    <remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']//decoration[@blockname='treeShortGrass']"/>
+    <remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']//decoration[@blockname='treeAzalea']"/>
+    <remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']//decoration[@blockname='plantShrub']"/>
+
+</configs>

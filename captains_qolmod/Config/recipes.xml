@@ -1,0 +1,228 @@
+<configs>
+	<!-- change ammo bundle recipes -->
+    <set xpath="/recipes/recipe[@name='resourceRockSmallBundle']/@tags">packMuleCrafting,sandboxIgnore</set>
+    <set xpath="/recipes/recipe[@name='resourceWoodBundle']/@tags">packMuleCrafting,sandboxIgnore</set>
+    <set xpath="/recipes/recipe[@name='resourceScrapIronBundle']/@tags">packMuleCrafting,sandboxIgnore</set>
+    <set xpath="/recipes/recipe[@name='resourceOilShaleBundle']/@tags">packMuleCrafting,sandboxIgnore</set>
+    <set xpath="/recipes/recipe[@name='resourcePotassiumNitratePowderBundle']/@tags">packMuleCrafting,sandboxIgnore</set>
+    <set xpath="/recipes/recipe[@name='resourceLeadBundle']/@tags">packMuleCrafting,sandboxIgnore</set>
+    <set xpath="/recipes/recipe[@name='resourceScrapBrassBundle']/@tags">packMuleCrafting,sandboxIgnore</set>
+    <set xpath="/recipes/recipe[@name='resourceCoalBundle']/@tags">packMuleCrafting,sandboxIgnore</set>
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundle9mmBulletBall']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundle9mmBulletHP']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundle9mmBulletAP']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletBall']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletHP']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletAP']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundle762mmBulletBall']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundle762mmBulletHP']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundle762mmBulletAP']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundleShotgunShell']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundleShotgunSlug']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundleShotgunBreachingSlug']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundleJunkTurretRegular']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundleJunkTurretShell']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundleJunkTurretAP']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundleArrowFlaming']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundleArrowExploding']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundleArrowIron']/@tags">packMuleCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundleArrowSteelAP']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundleArrowStone']/@tags">packMuleCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltFlaming']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltExploding']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltIron']/@tags">packMuleCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltSteelAP']/@tags">workbenchCrafting</set> -->
+    <!-- <set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltStone']/@tags">packMuleCrafting</set> -->
+    <set xpath="/recipes/recipe[@name='ammoGasCanBundle']/@tags">chemStationCrafting</set>
+    <set xpath="/recipes/recipe[@name='foodRawMeatBundle']/@tags">sandboxIgnore</set>
+    <set xpath="/recipes/recipe[@name='resourceLockPickBundle']/@tags">workbenchCrafting</set>
+    <set xpath="/recipes/recipe[@name='resourceGunPowderBundle']/@tags">chemStationCrafting</set>
+	
+	<remove xpath="/recipes/recipe[@name='ammoBundle9mmBulletBall']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundle9mmBulletHP']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundle9mmBulletAP']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletBall']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletHP']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletAP']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundle762mmBulletBall']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundle762mmBulletHP']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundle762mmBulletAP']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundleShotgunShell']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundleShotgunSlug']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundleShotgunBreachingSlug']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundleJunkTurretRegular']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundleJunkTurretShell']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundleJunkTurretAP']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundleArrowFlaming']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundleArrowExploding']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundleArrowIron']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundleArrowSteelAP']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundleArrowStone']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltFlaming']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltExploding']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltIron']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltSteelAP']" />
+    <remove xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltStone']" />
+
+	<append xpath="/recipes">
+
+		<!-- new ammo bundles -->
+		<recipe name="ammoBundle9mmBulletAP" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammo9mmBulletAP" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundle44MagnumBulletBall" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammo44MagnumBulletBall" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundle44MagnumBulletHP" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammo44MagnumBulletHP" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundle44MagnumBulletAP" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammo44MagnumBulletAP" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundle762mmBulletBall" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammo762mmBulletBall" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundle762mmBulletHP" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammo762mmBulletHP" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundle762mmBulletAP" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammo762mmBulletAP" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundleShotgunShell" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammoShotgunShell" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundleShotgunSlug" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammoShotgunSlug" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundleShotgunBreachingSlug" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammoShotgunBreachingSlug" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundleJunkTurretRegular" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammoJunkTurretRegular" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundleJunkTurretShell" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammoJunkTurretShell" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundleJunkTurretAP" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammoJunkTurretAP" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundleArrowFlaming" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammoArrowFlaming" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundleArrowExploding" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammoArrowExploding" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundleArrowIron" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammoArrowIron" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundleArrowSteelAP" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammoArrowSteelAP" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundleArrowStone" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammoArrowSteelAP" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundleCrossbowBoltFlaming" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammoCrossbowBoltFlaming" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundleCrossbowBoltExploding" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammoCrossbowBoltExploding" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundleCrossbowBoltIron" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammoCrossbowBoltIron" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundleCrossbowBoltSteelAP" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammoCrossbowBoltSteelAP" count="100"/>
+		</recipe>
+
+		<recipe name="ammoBundleCrossbowBoltStone" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="ammoCrossbowBoltSteelAP" count="100"/>
+		</recipe>
+
+		<!--  -->
+		<recipe name="casinoCoinBundle" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="casinoCoin" count="50000" />
+		</recipe>
+
+		<recipe name="ShamSandwichBundle" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="foodShamSandwich" count="50" />
+		</recipe>
+
+		<recipe name="ClothBundle" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="resourceCloth" count="250" />
+		</recipe>
+
+		<recipe name="PaperBundle" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="resourcePaper" count="500" />
+		</recipe>
+
+		<recipe name="ElectricPartsBundle" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="resourceElectricParts" count="1000" />
+		</recipe>
+
+		<recipe name="FeatherBundle" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="resourceFeather" count="250" />
+		</recipe>
+
+		<recipe name="BuckshotBundle" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="resourceBuckshot" count="1000" />
+		</recipe>
+		
+		<recipe name="PaintBundle" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="resourcePaint" count="1000" />
+		</recipe>
+		
+		<recipe name="RadiatorBundle" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="resourceRadiator" count="50" />
+		</recipe>
+		
+		<recipe name="resourceCobblestonesBundle" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="resourceCobblestones" count="6000" />
+		</recipe>
+
+		<recipe name="resourceCementBundle" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="resourceCement" count="6000" />
+		</recipe>
+
+		<recipe name="resourceCrushedSandBundle" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="resourceCrushedSand" count="6000" />
+		</recipe>
+		
+		<recipe name="resourceSewingKitBundle" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="resourceSewingKit" count="50" />
+		</recipe>
+		
+		<recipe name="resourceBulletTipBundle" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="resourceBulletTip" count="1000" />
+		</recipe>
+		
+		<recipe name="resourceBulletCasingBundle" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="resourceBulletCasing" count="1000" />
+		</recipe>
+
+		<recipe name="resourceClayLumpBundle" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="resourceClayLump" count="6000" />
+		</recipe>
+
+	</append>
+</configs>

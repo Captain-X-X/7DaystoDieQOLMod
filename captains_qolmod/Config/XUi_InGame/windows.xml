@@ -1,0 +1,53 @@
+<configs>
+
+    <set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/scrollview/grid[@name='queue']/@rows">20</set>
+    <set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/scrollview/grid[@name='queue']/@cols">20</set>
+
+	<set xpath="/windows/window[@name='windowBackpack']/@width">782</set>
+    <set xpath="/windows/window[@name='windowBackpack']/@height">562</set>
+
+    <setattribute xpath="/windows/window[@name='windowBackpack']/rect[@name='header']" name="width">774</setattribute>
+    <setattribute xpath="/windows/window[@name='windowBackpack']/rect[@name='header']" name="pos">0,4</setattribute>
+    <set xpath="/windows/window[@name='windowBackpack']/rect[@name='header']/rect[@controller='ContainerStandardControls']/@pos">280,0</set>
+    <set xpath="/windows/window[@name='windowBackpack']/rect[@name='header']//button[@name='btnMoveFillAndSmart']/@sprite">ui_game_symbol_store_similar_up</set>
+    <set xpath="/windows/window[@name='windowBackpack']/rect[@name='header']//button[@name='btnMoveAll']/@sprite">ui_game_symbol_store_all_up</set>
+    <set xpath="/windows/window[@name='windowBackpack']/rect[@name='header']/sprite[@name='costIcon']/@pos">735,-10</set>
+    <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/@height">434</set>
+    <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/@pos">0,-38</set>
+    <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/scrollview/grid/@rows">12</set>
+    <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/scrollview/grid/@cols">14</set>
+
+    <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/scrollview/grid/@cell_width">55</set>
+    <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/scrollview/grid/@cell_height">55</set>
+    <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/scrollview/grid/item_stack/@cell_size">55</set>
+    <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/sprite[@name='backgroundMain']/@width">774</set>
+    <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/sprite[@name='backgroundMain']/@height">554</set>
+
+	<!-- Crafting Queue (3.0 vanilla: rect pos 96,0; expand window for 3 rows) -->
+	<set xpath="/windows/window[@name='windowCraftingQueue']/@height">228</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/@pos">96,0</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid/@rows">3</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid/@cols">4</set>
+
+	<!-- Workstations Output Grid -->
+	<set xpath="/windows/window[@name='windowOutput']/@height">346</set>
+	<set xpath="/windows/window[@name='windowOutput']/rect[@name='content']/@height">300</set>
+	<set xpath="/windows/window[@name='windowOutput']/rect[@name='content']/sprite[@name='backgroundMain']/@height">300</set>
+	<set xpath="/windows/window[@name='windowOutput']/rect[@name='content']/grid[@controller='WorkstationOutputGrid']/@rows">4</set>
+	<set xpath="/windows/window[@name='windowOutput']/rect[@name='content']/grid[@controller='WorkstationOutputGrid']/@cols">3</set>
+
+	<!-- Forge Input Grid -->
+	<set xpath="/windows/window[@name='windowForgeInput']/@height">279</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@style='header.panel']/label/@style">header.name</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/sprite[@name='backgroundMain']/@depth">3</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/sprite[@name='backgroundMain']/@pos">0,-45</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/sprite[@name='backgroundMain']/@height">230</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content']/@height">230</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content']/grid[@controller='WorkstationMaterialInputGrid']/@rows">3</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/@pos">78,-46</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/@height">227</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/grid/@rows">6</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/grid/@pos">8,-6</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/grid/@cell_height">38</set>
+
+</configs>

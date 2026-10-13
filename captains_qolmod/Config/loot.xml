@@ -1,0 +1,11 @@
+<configs>
+
+	<!-- empty, storage containers the player crafts-->
+	<set xpath="//lootcontainer[@name='playerWoodWritableStorage']/@size">13,11</set> <!-- Default 8,6 -->
+	<set xpath="//lootcontainer[@name='playerIronWritableStorage']/@size">9,11</set> <!-- Default 8,8 -->
+	<set xpath="//lootcontainer[@name='playerSteelWritableStorage']/@size">13,11</set> <!-- Default 8,10 --> 
+
+  	<!-- Player dropped backpack-->
+	<set xpath="//lootcontainer[@name='playerBackpack']/@size">12,12</set> <!-- Default 7,10 -->
+
+</configs>

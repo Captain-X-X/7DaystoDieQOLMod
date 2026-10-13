@@ -1,0 +1,25 @@
+<configs>
+    <remove xpath="/blocks/block[@name='forge']/property[@name='ActiveRadiusEffects']"/>
+    <remove xpath="/blocks/block[@name='chemistryStation']/property[@name='ActiveRadiusEffects']"/>
+    <remove xpath="/blocks/block[@name='campfire']/property[@name='ActiveRadiusEffects']"/>
+    <remove xpath="/blocks/block[@name='decoPumpkinJackOLantern']/property[@name='ActiveRadiusEffects']"/>
+    <remove xpath="/blocks/block[@name='wallTorchLight']/property[@name='ActiveRadiusEffects']"/>
+    <remove xpath="/blocks/block[@name='wallTorchLightPlayer']/property[@name='ActiveRadiusEffects']"/>
+    <remove xpath="/blocks/block[@name='candleWallLight']/property[@name='ActiveRadiusEffects']"/>
+    <remove xpath="/blocks/block[@name='burningBarrelPlayer']/property[@name='ActiveRadiusEffects']"/>
+    <remove xpath="/blocks/block[@name='burningBarrel']/property[@name='ActiveRadiusEffects']"/>
+    <remove xpath="/blocks/block[@name='cntBarrelRadiatedSingle00']/property[@name='ActiveRadiusEffects']"/>
+    
+    <remove xpath="/blocks/block/drop[@event='Fall']"/>
+    <remove xpath="/blocks/block/property[@name='ParticleOnDeath']"/>
+    <append xpath="/blocks/block"> <property name="ShowModelOnFall" value="false"/> </append>
+	
+
+
+    <setattribute xpath="/blocks/block/property[@name='ShowModelOnFall']" name="ShowModelOnFall">false</setattribute>
+    <set xpath="/blocks/block[@name='electricfencepost']/property[@name='MaxDamage']/@value">1000</set>
+    
+    <append xpath="/blocks/block[@name='treeMaster']"> 
+        <property name="FallOver" value="false"/> 
+    </append>
+</configs>
