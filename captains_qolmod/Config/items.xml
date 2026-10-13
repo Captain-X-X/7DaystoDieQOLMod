@@ -12,8 +12,17 @@
     <remove xpath="/items/item[@name='resourceRockSmallBundle']/property[@name='UnlockedBy']" />
     <remove xpath="/items/item[@name='resourceGunPowderBundle']/property[@name='UnlockedBy']" />
     <remove xpath="/items/item[@name='resourceLockPickBundle']/property[@name='UnlockedBy']" />
+
+	<!-- set bundle size -->
+	<set xpath="/items/item[@name='ammoBundleMaster']/property[@name='Stacknumber']">500</set>
+    <set xpath="/items/item[@name='ammoBundle9mmBulletBall']/property[@name='Stacknumber']">500</set>
+    <set xpath="/items/item[@name='ammoBundle9mmBulletHP']/property[@name='Stacknumber']">500</set>
+    <set xpath="/items/item[@name='ammoBundle9mmBulletAP']/property[@name='Stacknumber']">500</set>
+    <set xpath="/items/item[@name='ammoBundle44MagnumBulletBall']/property[@name='Stacknumber']">500</set>
+    <set xpath="/items/item[@name='ammoBundle44MagnumBulletHP']/property[@name='Stacknumber']">500</set>
+    <set xpath="/items/item[@name='ammoBundle44MagnumBulletAP']/property[@name='Stacknumber']">500</set>
 	
-	<!-- remove the smell sheeeeet -->
+	<!-- remove the smell -->
 	<remove xpath="/items/item//property[@name='SmellUse']" />
 
 	<!-- MISC -->
@@ -79,7 +88,7 @@
 	<set xpath="/items/item[@name='foodMeatStew']//property[@name='Delay']/@value">0.5</set>
 	
 	
-	<set xpath="/items/item[@name='foodShamSandwich']/property[@name='Stacknumber']/@value">50</set>
+	<set xpath="/items/item[@name='foodShamSandwich']/property[@name='Stacknumber']/@value">500</set>
 	<set xpath="/items/item[@name='foodRawMeatBundle']/property[@name='Stacknumber']/@value">50</set>
 	<set xpath="/items/item[@name='foodRottingFlesh']/property[@name='Stacknumber']/@value">6000</set>
 	<set xpath="/items/item[@name='foodHoney']/property[@name='Stacknumber']/@value">50</set>
@@ -130,20 +139,6 @@
 	<set xpath="/items/item[@name='meleeToolPickT3Auger']//property[@name='Reload_time']">1.0</set>
 	<remove xpath="/items/item[@name='meleeToolPickT3Auger']/property[@name='Particles_muzzle_smoke']" />
 	<remove xpath="/items/item[@name='meleeToolPickT3Auger']//property[@name='Particles_muzzle_smoke']" />
-	
-
-	
-	<!-- SET -->
-    <set xpath="/items/item[@name='ammoBundleMaster']/property[@name='Stacknumber']">50</set>
-    <set xpath="/items/item[@name='ammoBundle9mmBulletBall']/property[@name='Stacknumber']">50</set>
-    <set xpath="/items/item[@name='ammoBundle9mmBulletHP']/property[@name='Stacknumber']">50</set>
-    <set xpath="/items/item[@name='ammoBundle9mmBulletAP']/property[@name='Stacknumber']">50</set>
-    <set xpath="/items/item[@name='ammoBundle44MagnumBulletBall']/property[@name='Stacknumber']">50</set>
-    <set xpath="/items/item[@name='ammoBundle44MagnumBulletHP']/property[@name='Stacknumber']">50</set>
-    <set xpath="/items/item[@name='ammoBundle44MagnumBulletAP']/property[@name='Stacknumber']">50</set>
-	<set xpath="/items/item[@name='resourceRockSmallBundle']/property[@name='Stacknumber']">50</set>
-    <!-- <set xpath="/items/item[@name='foodRawMeatBundle']/property[@name='Stacknumber']">50</set> -->
-    <set xpath="/items/item[@name='resourceLockPickBundle']/property[@name='Stacknumber']">50</set>
 	
 	<append xpath="/items">
 		<!--  -->
@@ -288,7 +283,6 @@
 				<property name="Create_item_count" value="300"/>
 			</property>
 		</item>
-
 
 		<!--  -->
 		<item name="resourceBundleDummyForPerkReqRemove">
