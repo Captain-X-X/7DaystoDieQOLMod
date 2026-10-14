@@ -1,6 +1,3 @@
 <configs>
-    <!-- <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="resourceRockSmallBundle,resourceWoodBundle,resourceScrapIronBundle,resourceOilShaleBundle,resourcePotassiumNitratePowderBundle,resourceLeadBundle,resourceScrapBrassBundle,resourceCoalBundle"/> -->
-    <!-- <remove xpath="/progression/perks/book[@name='perkArtOfMiningPallets']/effect_group/passive_effect[@name='RecipeTagUnlocked']" /> -->
     <set xpath="/progression/perks/book[@name='perkArtOfMiningPallets']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">resourceBundleDummyForPerkReqRemove</set>
-
 </configs>

@@ -1,8 +1,33 @@
 <configs>
 
-    <!-- REMOVE -->
+    <!-- remove: pine forest -->
     <remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']//decoration[@blockname='treeShortGrass']"/>
     <remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']//decoration[@blockname='treeAzalea']"/>
     <remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']//decoration[@blockname='plantShrub']"/>
+
+    <!-- remove: burnt forest -->
+    <remove xpath="/worldgeneration/biomes/biome[@name='burnt_forest']//decoration[@blockname='treeShortGrass']"/>
+    <remove xpath="/worldgeneration/biomes/biome[@name='burnt_forest']//decoration[@blockname='plantShrub']"/>
+
+    <!-- remove: desert -->
+    <remove xpath="/worldgeneration/biomes/biome[@name='burnt_forest']//decoration[@blockname='plantShrub']"/>
+
+    <!-- remove: snow -->
+    <remove xpath="/worldgeneration/biomes/biome[@name='burnt_forest']//decoration[@blockname='plantShrub']"/>
+
+    <!-- remove: wasteland -->
+    <remove xpath="/worldgeneration/biomes/biome[@name='burnt_forest']//decoration[@blockname='treeShortGrass']"/>
+    <remove xpath="/worldgeneration/biomes/biome[@name='burnt_forest']//decoration[@blockname='plantShrub']"/>
+    <remove xpath="/worldgeneration/biomes/biome[@name='burnt_forest']//decoration[@blockname='mineHubcap']"/>
+    <remove xpath="/worldgeneration/biomes/biome[@name='burnt_forest']//decoration[@blockname='hubcapNoMine']"/>
+    <remove xpath="/worldgeneration/biomes/biome[@name='burnt_forest']//decoration[@blockname='mineCandyTin']"/>
+
+    <!-- remove: underwater -->
+    <remove xpath="/worldgeneration/biomes/biome[@name='burnt_forest']//decoration[@blockname='hubcapNoMine']"/>
+
+    <!-- remove: pois -->
+    <remove xpath="/pois/poi[@name='City Asphalt']/decal"/>
+    <remove xpath="/pois/poi[@name='Country Road Asphalt']/decal"/>
+    <remove xpath="/pois/poi[@name='Road Gravel']/decal"/>
 
 </configs>

@@ -14,8 +14,6 @@
     <remove xpath="/blocks/block/property[@name='ParticleOnDeath']"/>
     <append xpath="/blocks/block"> <property name="ShowModelOnFall" value="false"/> </append>
 	
-
-
     <setattribute xpath="/blocks/block/property[@name='ShowModelOnFall']" name="ShowModelOnFall">false</setattribute>
     <set xpath="/blocks/block[@name='electricfencepost']/property[@name='MaxDamage']/@value">1000</set>
     
